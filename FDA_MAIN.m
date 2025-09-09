@@ -2,7 +2,7 @@ clc;
 clear ; 
 close all ;
 
-%% ------------------------------------Radar parameter settings
+%% ------------------------------------------Radar parameter settings
 
 j = sqrt(-1);
 c = 3e8;                                                % Speed of light
@@ -113,5 +113,6 @@ xlabel('DoA [deg]'); ylabel('Range [m]');
 axis tight; axis xy;
 hold on
 scatter([theta1,theta2]*180/pi,[R1,R2],50,'black','^');
+
 
 
