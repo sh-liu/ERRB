@@ -8,5 +8,6 @@ j = sqrt(-1);
 c = 3e8;
 a_t_r = exp(-j*2*pi*2*Delta_f'*R/c);            
 a_t_theta = exp(j*2*pi*f0/c*Dt'*sin(theta));        
-a=a_t_r.*a_t_theta;
+a = a_t_r.*a_t_theta;
+
 end
